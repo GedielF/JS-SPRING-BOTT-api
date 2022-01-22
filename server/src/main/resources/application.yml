@@ -8,7 +8,7 @@ flyway:
 spring:
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        password: 1707Diel
+        password: admin123
         url: jdbc:mysql://localhost:3306/rest_with_spring_boot_udemy?useTimezone=true&serverTimezone=UTC
         username: root
     jackson:
