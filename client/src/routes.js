@@ -1,16 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Login from './pages/Login';
 import Breaksat from './pages/Breakfast';
+import NewFood from "./pages/NewFood";
 
-export default function Rotas(){
+
+export default function Routes (){
     return(
         <BrowserRouter>
-            <Routes>
-                <Route path="/welcome" exact component={Login}/>
-                <Route path="/" component={Breaksat}/>
-            </Routes>
+            <Switch>
+                <Route path="/" exact component={Login}/>
+                <Route path="/breakfast" component={Breaksat}/>
+                <Route path="/NewFood" component={NewFood}/>                    
+            </Switch>
         </BrowserRouter>
-    )
+    );
 }

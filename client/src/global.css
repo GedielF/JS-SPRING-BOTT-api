@@ -5,8 +5,6 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    background-color: #f5f5fa;
-
 
 }
 
@@ -16,17 +14,16 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
+
 #Login {
     width: 90;
     max-width: 980px;
     margin: 40px auto;
     display: flex;
-
 }
 
 input,button,textarea{
     font: 400 18px Roboto, sans-serif;
-
 }
 
 button{
@@ -43,8 +40,6 @@ form input{
     border-radius: 8px;
     padding: 0 24px;
     margin-top: 15px;
-    
-
 }
 /*
 Button da tela de login
@@ -65,7 +60,22 @@ Button da tela de login
     line-height: 60px;
     transition: filter 0.3s;
     box-shadow: 0px 8px 16px #4942FF;
-    
+}
+.button{
+    width: 60px;
+    height: 60px;
+    background: #3967E6;
+    border: 0;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.3s;
 }
 /*
 Button quando passar o mouse
@@ -74,6 +84,8 @@ Button quando passar o mouse
     background-color: #0000C4;
     text-decoration: none;
 }
-/*x
-
-*/
+.button:hover{
+    background-color: #0000C4;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px #4942FF;
+}

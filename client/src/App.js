@@ -1,8 +1,9 @@
 import './global.css';
-import Rotas from './routes';
+
+import Routes from './Routes'
 
 export default function App(){
   return(
-    <Rotas/>
+    <Routes/>
   );
 }
